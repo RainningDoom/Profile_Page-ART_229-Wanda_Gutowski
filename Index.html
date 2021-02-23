@@ -5,6 +5,7 @@
 </head>
 <body>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   body {
     background-image: url(file:///C:/Users/Berry/OneDrive/Documents/SPRING%20SEMESTER%202021/Design%20for%20Web/Design%20for%20Web%20-%20Profile%20background%20-%20Wanda%20Gutowski.jpg);
@@ -12,6 +13,14 @@
       background-attachment: fixed;
     background-size: 100% 100%;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 </style>
 
 
@@ -21,7 +30,7 @@
  }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: fantasy Arial;
 }
 
 
@@ -41,25 +50,64 @@ body {
   clear: both;
 }
 
-
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  padding: 15px;
   text-align: center;
   background-color: #808000;
 }
 </style>
- <img src="file:///C:/Users/Berry/OneDrive/Documents/SPRING%20SEMESTER%202021/Design%20for%20Web/Design%20for%20Web%20-%20Profile%20headshot%20-%20Wanda%20Gutowski.png" alt="headshot of Erin" width="550" height="400">
+ <img src="file:///C:/Users/Berry/OneDrive/Documents/SPRING%20SEMESTER%202021/Design%20for%20Web/Design%20for%20Web%20-%20Profile%20headshot%20-%20Wanda%20Gutowski.png" alt="headshot of Erin" class="center">
+ <div class="row">
+     <div class="column">
+         <div class="card">
+           <div class="card">
+            <h3>FAQ</h3></div><br>
+            <div class="card">
+             <p><b>Question one:</b><br>
+             Are you part deer?
+        No, I'm a druid. After a
+       while we can change part
+       of use to look like animals!</p>
+       <br>
+             <p><b>Question two:</b><br>
+             You look like a kid.
+       Not really a question
+       silly, but us Elves age
+       really slow, and being
+       a druid slows it even
+       more. But to elves I'm
+       still very young.</p>
+             <br>
+           <p><b>Question three:</b><br>
+           What do you do?
+       I'm mainly my group's
+       healer, but I know how
+       to fight a little. I'm a
+       good aim!</p></div>
+         </div>
+         </div>
+
 
         <div class="row">
             <div class="column">
                 <div class="card">
-                  <h3>Get to Know Me</h3>
                   <div class="card">
-                  <p>Quote: "I don't know how I got here other then I followed a kitty."</p>
+                  <h3>Get to Know Me</h3></div><br>
+                  <div class="card">
+                  <p><b>Quote:</b><br>
+                    "I don't know how I got here other then I followed a kitty."</p>
                     <br>
-                  <p>Bio: Hello, I'm Erin Tyrneaelrvis. I'm an 120
+                  <p><b>Bio:</b><br>
+                     Hello, I'm Erin Tyrneaelrvis. I'm an 120
               years old Eladrin Elf! I'm also a druid who
               serves the circle of dreams. Oh did I
               mention I was born in the Fey Wild?</p></div>
@@ -69,19 +117,20 @@ body {
                 <div class="row">
                     <div class="column">
                         <div class="card">
-                          <h3>Fun Facts</h3>
                           <div class="card">
-                          <p>Number One:
+                          <h3>Fun Facts</h3></div><br>
+                          <div class="card">
+                          <p><b>Number One:</b><br>
                           "I love
                           cookies and
                           milk!"</p>
                             <br>
-                          <p>Number Two:
+                          <p><b>Number Two:</b><br>
                           "Cats are my
                           favorite animal
                           in this realm!"</p>
                             <br>
-                          <p>Number Three:
+                          <p><b>Number Three:</b><br>
                           "The season
                         shown on my antlers
                         go with my emotional
@@ -89,34 +138,7 @@ body {
                         </div>
                       </div>
 
-          <div class="row">
-              <div class="column">
-                  <div class="card">
-                     <h3>FAQ</h3>
-                     <div class="card">
-                      <p>Question one:
-                      Are you part deer?
-                 No, I'm a druid. After a
-                while we can change part
-                of use to look like animals!</p>
-                <br>
-                      <p>Question two:
-                      You look like a kid.
-                Not really a question
-                silly, but us Elves age
-                really slow, and being
-                a druid slows it even
-                more. But to elves I'm
-                still very young.</p>
-                      <br>
-                    <p>Question three:
-                    What do you do?
-                I'm mainly my group's
-                healer, but I know how
-                to fight a little. I'm a
-                good aim!</p>
-                  </div>
-                  </div>
+
 
 </body>
 </html>
